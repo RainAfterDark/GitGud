@@ -1,8 +1,9 @@
-package org.gitgud.core.data;
+package org.gitgud.core.model;
 
 import java.util.ArrayList;
 import java.util.List;
 
+@BasePost
 public class TextPost extends Post {
     static final int WIDTH_BIAS = 4;
     static final int MIN_WIDTH = 8;

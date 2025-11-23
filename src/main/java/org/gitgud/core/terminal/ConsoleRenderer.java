@@ -1,6 +1,6 @@
 package org.gitgud.core.terminal;
 
-import org.gitgud.core.data.Post;
+import org.gitgud.core.model.Post;
 import org.jline.terminal.Terminal;
 import org.jline.terminal.TerminalBuilder;
 import org.jline.utils.AttributedString;

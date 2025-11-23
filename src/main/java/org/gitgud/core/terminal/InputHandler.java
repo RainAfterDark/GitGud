@@ -3,8 +3,6 @@ package org.gitgud.core.terminal;
 import org.jline.terminal.Terminal;
 import org.jline.utils.NonBlockingReader;
 
-import java.io.IOException;
-
 public class InputHandler {
     static final int FAST_SPEED = 3;
 
@@ -46,7 +44,9 @@ public class InputHandler {
                     if (input == 'd') renderer.camX.addAndGet(speed * 2);
                     if (input == 'r') resetCamera();
                 }
-            } catch (IOException _) {}
+            } catch (Exception e) {
+                throw new RuntimeException(e);
+            }
         });
         inputThread.start();
     }

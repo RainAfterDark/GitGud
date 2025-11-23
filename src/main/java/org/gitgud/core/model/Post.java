@@ -1,4 +1,4 @@
-package org.gitgud.core.data;
+package org.gitgud.core.model;
 
 import java.util.List;
 

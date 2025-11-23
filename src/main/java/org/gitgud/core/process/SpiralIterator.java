@@ -1,4 +1,4 @@
-package org.gitgud.core.algo;
+package org.gitgud.core.process;
 
 import java.util.Iterator;
 

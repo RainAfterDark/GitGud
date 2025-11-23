@@ -1,6 +1,6 @@
-package org.gitgud.core.algo;
+package org.gitgud.core.process;
 
-import org.gitgud.core.data.Post;
+import org.gitgud.core.model.Post;
 
 import java.util.ArrayList;
 import java.util.List;
