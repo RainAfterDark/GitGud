@@ -3,6 +3,9 @@ package org.gitgud.core.model;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * A post that contains static text.
+ */
 @BasePost
 public class StaticPost extends Post {
     static final int WIDTH_BIAS = 4;
@@ -30,6 +33,11 @@ public class StaticPost extends Post {
         return wrapped;
     }
 
+    /**
+     * Creates a new static post.
+     * @param rawText the message to display.
+     * @param wrap whether to wrap the text to keep the post square.
+     */
     public StaticPost(String rawText, boolean wrap) {
         lines = wrap ? wrapText(rawText) : List.of(rawText.split("\\n"));
         setDimensionsFromLines();

@@ -2,6 +2,9 @@ package org.gitgud.core.model;
 
 import java.util.List;
 
+/**
+ * A post is a rectangular region on the screen that contains text.
+ */
 public abstract class Post {
     int x, y;
     int width, height;
@@ -53,5 +56,9 @@ public abstract class Post {
         this.lines = lines;
     }
 
+    /**
+     * Called every frame to update the post's state.
+     * @param deltaTIme the time elapsed since the last frame.
+     */
     abstract public void update(double deltaTIme);
 }

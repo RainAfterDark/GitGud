@@ -3,6 +3,10 @@ package org.gitgud.core.model;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * A post that can be animated with a set of frames.
+ */
+@BasePost
 public class AnimatedPost extends Post {
     final List<List<String>> frames = new ArrayList<>();
     final double frameDuration;
@@ -15,6 +19,11 @@ public class AnimatedPost extends Post {
         frameTime = 0;
     }
 
+    /**
+     * Creates a new animated post.
+     * @param rawFrames a list of frames, each frame being a string.
+     * @param frameDuration the duration of each frame, in seconds.
+     */
     public AnimatedPost(List<String> rawFrames, double frameDuration) {
         this.frameDuration = frameDuration;
         if (rawFrames == null || rawFrames.isEmpty()) return;
