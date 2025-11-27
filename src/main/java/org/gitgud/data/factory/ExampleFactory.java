@@ -7,10 +7,12 @@ import org.gitgud.core.model.StaticPost;
 import java.util.List;
 
 @SuppressWarnings("unused")
+// Replace ExampleFactory with the name of your .java file
 public class ExampleFactory implements PostFactory {
     @Override
     public List<Post> generatePosts() {
         return List.of(
+                // You can add as many posts as you want here, separated by commas
                 new StaticPost("Hello World!", false),
                 new StaticPost("The quick brown fox\njumped over the lazy dog.", false),
                 new StaticPost("""
