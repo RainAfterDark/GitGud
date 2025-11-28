@@ -1,0 +1,16 @@
+package org.gitgud.data.posts;
+
+import org.gitgud.core.model.StaticPost;
+
+@SuppressWarnings("unused")
+// Replace ExamplePost with the name of your .java file
+public class aa extends StaticPost {
+    // Replace ExamplePost here as well
+    public aa() {
+        // Enter your message inside the triple quotes
+        super("""
+                ANEN
+                BARAO
+                """, true); // You can set wrap to false if you prefer
+    }
+}
