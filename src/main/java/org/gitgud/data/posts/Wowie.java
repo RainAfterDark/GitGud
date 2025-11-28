@@ -7,7 +7,7 @@ import org.gitgud.core.model.StaticPost;
 public class Wowie extends StaticPost {
     public Wowie() {
         super("""
-                Hi.
+                Ren was here!
                 """, true);
     }
 }
