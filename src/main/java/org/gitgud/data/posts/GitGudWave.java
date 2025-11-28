@@ -14,75 +14,75 @@ public class GitGudWave extends AnimatedPost {
                 """, """
                 
                 
-                G
+                N
                 """, """
                 
-                G
+                N
                  I
                 """, """
-                G
+                N
                  I
-                  T
+                  G
                 """, """
                  I
-                G T
+                N G
                    G
                 """, """
-                  T
-                GI G
-                    U
+                  G
+                NI G
+                    R
                 """, """
                    G
-                GIT U
-                     D
+                NIG R
+                     A
                 """, """
-                    U
-                GITG D
+                    R
+                NIGG A
                 
                 """, """
-                     D
-                GITGU
-                
-                """, """
-                
-                GITGUD
+                     A
+                NIGGR
                 
                 """, """
                 
-                GITGUD
+                NIGGRA
                 
                 """, """
                 
-                GITGUD
+                AGREEN
                 
                 """, """
                 
-                GITGUD
+                SEVEEN
                 
                 """, """
                 
-                 ITGUD
-                G
+                NIGERI
+                
                 """, """
                 
-                  TGUD
+                 IGERI
+                N
+                """, """
+                
+                  GERI
                  I
                 """, """
                 
-                   GUD
-                  T
+                   ERI
+                  G
                 """, """
                 
-                    UD
-                   G
+                    RI
+                   E
                 """, """
                 
-                     D
-                    U
+                     I
+                    R
                 """, """
                 
                 
-                     D
+                     I
                 """
         ), 0.1124);
     }
