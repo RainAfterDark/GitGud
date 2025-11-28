@@ -1,3 +1,8 @@
+package org.gitgud.data.posts;
+
+import org.gitgud.core.model.StaticPost;
+
+@SuppressWarnings("unused")
 // Replace ExamplePost with the name of your .java file
 public class Post12 extends StaticPost {
     // Replace ExamplePost here as well
